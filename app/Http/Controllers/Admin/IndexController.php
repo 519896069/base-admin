@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\AdminA;
+namespace App\Http\Controllers\Admin;
 
 
 use Core\Components\Controllers\Base\AdminController;
@@ -9,6 +9,6 @@ class IndexController extends AdminController
 {
     public function index()
     {
-        return response(['hei' => 'hi']);
+        return view('welcome');
     }
 }

@@ -43,9 +43,7 @@ return [
      */
     'routes'    => [
         [
-            'middleware' => [
-                ''
-            ],
+            'middleware' => [],
             'routes'     => [
                 [Core::GET, 'index', 'Admin\IndexController@index', 'index'],
             ],
